@@ -1,5 +1,6 @@
 import React from 'react';
 import Products from './Products';
+import shoes from './RecommendedShoes';
 
 class RecommendedProducts extends React.Component{
     constructor(){
@@ -7,14 +8,11 @@ class RecommendedProducts extends React.Component{
     }
 
     render(){
+        console.log(shoes)
         return(
             <div>
                 <ul>
-                    <Products />
-                    <Products />
-                    <Products />
-                    <Products />
-                    <Products />
+                    <Products name={shoes[0].name} />
                 </ul>
             </div>
         )   
