@@ -1,4 +1,5 @@
 import React from 'react';
+import Products from './Products';
 
 class RecommendedProducts extends React.Component{
     constructor(){
@@ -8,7 +9,13 @@ class RecommendedProducts extends React.Component{
     render(){
         return(
             <div>
-                hello products!
+                <ul>
+                    <Products />
+                    <Products />
+                    <Products />
+                    <Products />
+                    <Products />
+                </ul>
             </div>
         )   
     }
