@@ -14,11 +14,11 @@ class RecommendedProducts extends React.Component{
             return <Products name={item.name} description={item.description} />
         })
 
-        console.log(recommended);
+        // console.log(recommended);
         return(
             <div>
                 <h1>{title}</h1>
-                <ul>
+                <div className='product-ul'>
                     {/* <Products shoe={shoes[0]} /> */}
                     {/* <Products name={shoes[0].name} description={shoes[0].description} />
                     <Products name={shoes[1].name} description={shoes[1].description} />
@@ -26,7 +26,7 @@ class RecommendedProducts extends React.Component{
                     <Products name={shoes[3].name} description={shoes[3].description} />
                     <Products name={shoes[4].name} description={shoes[4].description} /> */}
                     {recommended}
-                </ul>
+                </div>
             </div>
         )   
     }
