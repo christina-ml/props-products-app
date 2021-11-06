@@ -10,7 +10,9 @@ class RecommendedProducts extends React.Component{
     render(){
         console.log(shoes)
         return(
-            <div>
+            <div className="">
+                <h1>{this.props.title}</h1>
+
                 <ul>
                     {/* <Products shoe={shoes[0]} /> */}
                     <Products name={shoes[1].name} description={shoes[1].description} />

@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <h1>Christina is Awesome</h1>
       <h2>These products are great!</h2>
-      <RecommendedProducts />
+      <RecommendedProducts title={"Christina's recommended shoes"} />
     </div>
   );
 }
