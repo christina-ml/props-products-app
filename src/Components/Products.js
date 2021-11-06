@@ -1,8 +1,8 @@
 // here we will create a template for a product component!
 
-function Products(props) {
-    console.log(props.name)
-    let { name, description } = props.shoe;
+function Products(banana) {
+    console.log(banana.name)
+    let { name, description } = banana.shoe;
      
     return (
         <div className="product">
