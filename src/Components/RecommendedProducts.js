@@ -12,8 +12,8 @@ class RecommendedProducts extends React.Component{
         return(
             <div>
                 <ul>
-                    <Products name={shoes[0].name} description={shoes[0].description} />
-                    <Products name={shoes[1].name} description={shoes[1].description} />
+                    <Products shoe={shoes[0]} />
+                    {/* <Products name={shoes[1].name} description={shoes[1].description} /> */}
                 </ul>
             </div>
         )   

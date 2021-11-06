@@ -2,10 +2,12 @@
 
 function Products(props) {
     console.log(props.name)
+    let { name, description } = props.shoe;
+     
     return (
         <div className="product">
-            <h1>{props.name}</h1>
-            <p>{props.description}</p>
+            <h1>{name}</h1>
+            <p>{description}</p>
         </div>
     )
 }
