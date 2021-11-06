@@ -8,11 +8,15 @@ class RecommendedProducts extends React.Component{
     }
 
     render(){
-        console.log(this.props)
+        // console.log(this.props)
         let {title} = this.props;
+        let recommended = shoes.map((item)=> {
+            return <Products name={item.name} description={item.description} />
+        })
 
+        console.log(recommended);
         return(
-            <div className="">
+            <div>
                 <h1>{title}</h1>
                 <ul>
                     {/* <Products shoe={shoes[0]} /> */}
