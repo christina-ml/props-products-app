@@ -1,7 +1,10 @@
-function Products() {
+// here we will create a template for a product component!
+
+function Products(props) {
+    console.log(props.name)
     return (
         <div className="product">
-            <h1>Yeezy 350 v2</h1>
+            <h1>{props.name}</h1>
             <p>The YEEZY BOOST 350 V2 features an upper...</p>
         </div>
     )
