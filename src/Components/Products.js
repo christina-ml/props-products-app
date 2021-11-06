@@ -5,7 +5,7 @@ function Products(props) {
     return (
         <div className="product">
             <h1>{props.name}</h1>
-            <p>The YEEZY BOOST 350 V2 features an upper...</p>
+            <p>{props.description}</p>
         </div>
     )
 }
